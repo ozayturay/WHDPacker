@@ -1,6 +1,6 @@
 @Echo Off
 
-Echo WHDPacker Classic v1.2 Copyright © 2020 SimJoy Free Software
+Echo WHDPacker v1.2 Copyright © 2020 SimJoy Free Software
 Echo.
 Echo This script converts a WHDLoad game archive into a
 Echo standalone fullscreen "Windows Game" by packing it
@@ -57,7 +57,7 @@ Echo WHDLoad %PckName%.slave PRELOAD; >> "%Startup%"
 
 Echo Generating WinRAR SFX Options File
 Echo Setup=WHDLoad.exe -f WHDLoad.uae -portable > "%SFXFile%"
-Echo Path=%APPDATA%\WHDPacker\%PckName% >> "%SFXFile%"
+Echo Path=%PROGRAMDATA%\WHDPacker\%PckName% >> "%SFXFile%"
 Echo Silent=1 >> "%SFXFile%"
 Echo Overwrite=2 >> "%SFXFile%"
 
