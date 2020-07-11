@@ -8,7 +8,7 @@ Echo.
 Echo To continue packing press any key
 Echo.
 Pause >NUL
-For %%F in (Files\*.zip) Do Call WHDPacker.bat %%F
+For %%F in (Files\*.zip) Do Call WHDPacker_Scanline_1920x1080.bat %%F
 Echo Completed
 Echo Press any key to quit
 Pause >NUL
