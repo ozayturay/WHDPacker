@@ -69,7 +69,7 @@ If Exist "%PckDir%\%PckName%.exe" Del "%PckDir%\%PckName%.exe"
 
 Echo Generating %PckName%.exe
 Cd "%TmpDir%"
-"%RAR%" a -m5 -sfx -iadm -s -rr -r -k -z"%SFXFile%" -iicon"%SFXIcon%" "%PckDir%\%PckName%.exe"
+"%RAR%" a -m5 -sfx -s -rr -r -k -z"%SFXFile%" -iicon"%SFXIcon%" "%PckDir%\%PckName%.exe"
 Cd ..
 
 Echo Deleting Temporary Files
